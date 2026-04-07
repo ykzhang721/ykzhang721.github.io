@@ -29,4 +29,144 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<style>
+  .homepage {
+    max-width: 880px;
+  }
+
+  .homepage__intro {
+    margin-bottom: 2.2rem;
+    padding: 1.4rem 1.5rem 1.2rem;
+    background: linear-gradient(135deg, #fcfbf7 0%, #f4efe3 100%);
+    border: 1px solid #e7dcc4;
+    border-radius: 14px;
+  }
+
+  .page__content .homepage h2 {
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid #d7c7a4;
+    color: #1f2937;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.55rem;
+    letter-spacing: 0.01em;
+  }
+
+  .homepage p,
+  .homepage li {
+    color: #374151;
+    line-height: 1.72;
+  }
+
+  .experience-list {
+    display: grid;
+    gap: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-item {
+    padding: 1rem 1.1rem;
+    background: #fffdfa;
+    border: 1px solid #eadfcb;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(39, 28, 14, 0.04);
+  }
+
+  .experience-item__head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 0.35rem;
+    color: #111827;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  .experience-item__head span {
+    color: #8a6a2f;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+
+  .experience-item__body {
+    color: #4b5563;
+    font-size: 0.98rem;
+  }
+
+  .compact-list ul {
+    margin-bottom: 0;
+  }
+
+  .pub-list {
+    margin: 1rem 0 1.6rem 1.1rem;
+    padding: 0;
+  }
+
+  .pub-item {
+    margin-bottom: 1rem;
+    padding: 0.9rem 1rem 0.95rem 1.05rem;
+    background: #fff;
+    border: 1px solid #e6e8ee;
+    border-left: 4px solid #d6dae5;
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.035);
+  }
+
+  .pub-item__title {
+    margin-bottom: 0.38rem;
+    color: #0f172a;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .pub-item__meta {
+    margin-bottom: 0.42rem;
+  }
+
+  .pub-tag {
+    display: inline-block;
+    padding: 0.2rem 0.58rem;
+    border-radius: 999px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .pub-tag--conference {
+    color: #1849a9;
+    background: #e8f0ff;
+  }
+
+  .pub-tag--spotlight {
+    color: #0f766e;
+    background: #def7f3;
+  }
+
+  .pub-tag--preprint {
+    color: #9a3412;
+    background: #fef0db;
+  }
+
+  .pub-item__authors {
+    color: #667085;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .experience-item__head {
+      display: block;
+    }
+
+    .experience-item__head span {
+      display: block;
+      margin-top: 0.2rem;
+    }
+  }
+</style>
+
 <!-- end custom head snippets -->

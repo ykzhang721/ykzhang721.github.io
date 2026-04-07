@@ -11,18 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D  in School of Computer Science <span style="float: right;">2022 - 2027 (expected)</span> <br>Fudan University  <br>
-<!-- * M.S. in Jekyll, GitHub University, 2014 -->
-* B.S. in School of Computer Science and Engineering <span style="float: right;">2018 - 2022</span> <br>University of Electronic Science and Technology of China 
+* Ph.D. in Computer Science <span style="float: right;">2022 - Present</span> <br>Fudan University
+* B.S. in Computer Science and Engineering <span style="float: right;">2018 - 2022</span> <br>University of Electronic Science and Technology of China
+
+Experience
+======
+* Knowledge Works Lab, Fudan University <span style="float: right;">2022 - Present</span> <br>Advisor: Yanghua Xiao <br>Topic: Autonomous Agents
+* Institute for AI Industry Research, Tsinghua University <span style="float: right;">Mar. 2025 - Present</span> <br>Role: Research Intern <br>Advisor: Hao Zhou <br>Topic: LLMs for Scientific Discovery, especially in biology
+* ByteDance AI Lab <span style="float: right;">Mar. 2024 - Jan. 2025</span> <br>Role: Research Intern <br>Advisors: Rong Ye and Peng Sun <br>Topic: Language Agents for Social Deduction Games
 
 AWARDS
 ======
-* First Prize of the Scholarship at Fudan University, 2023
-* Outstanding Undergraduates Graduates of Sichuan, 2022
+* First Prize Scholarship at Fudan University, 2023, 2024, 2025
+* Outstanding Graduate of Sichuan Province, 2022
 
 Academic Services
 ======
-* Serving as a Reviewer of Neurips (2024)
+* Reviewer for NeurIPS, ICLR, ICML, and ACL Rolling Review (ARR)
 
 
 [Download my CV](/assets/cv.pdf)

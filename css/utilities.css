@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--width-medium);
+  padding: 0 1.4rem;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection,
+li::selection,
+a::selection,
+strong::selection,
+span::selection {
+  background: rgba(31, 79, 138, 0.2);
+  color: var(--text-color);
+}

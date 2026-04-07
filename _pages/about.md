@@ -1,72 +1,183 @@
 ---
-permalink: /
-title: "Personal Information"
+published: false
+permalink: /about/
+title: "About"
 author_profile: true
-redirect_from: 
-  - /about/
+redirect_from:
   - /about.html
 ---
 
-Profile
-======
-**Yikai Zhang (张益恺)** is a second-year Ph.D. student at Fudan University in the School of Computer Science, Shanghai, China. His research topics are mostly around multimodal learning and autonomous agents, including (but not limited to):
+<div class="homepage">
 
-- **Multimodal Representation Learning**: Cross-modal alignment and training of multi-modal models.<br>
-- **Reasoning and Planning**: Endowing language models with human-like reasoning and planning capabilities.<br>
-- **Simulated Environments**: Building dynamic and interactive environments for the evaluation of agents.
+<div class="homepage__intro">
 
+  <p>I am <strong>Yikai Zhang (张益恺)</strong>, a fourth-year Ph.D. student in the School of Computer Science at Fudan University, advised by Prof. Yanghua Xiao. My research focuses on <strong>autonomous agents</strong>, especially how to improve reasoning, planning, and post-training for language agents.</p>
 
-Experience
-======
-Fudan University                                 <span style="float: right;">2022 - Present</span>
-- Role: Ph.D. Student<br>
-- Topics: Multimodal Learning and Autonomous Agents
+  <p>My current interests include:</p>
 
-ByteDance  <span style="float: right;">2024 - Present</span><br>
-- Role: Research Intern<br>
-- Topics: Multi-agent Learning
+  <ul>
+    <li><strong>Reasoning and planning for LLMs</strong>: improving strategic reasoning, long-horizon planning, and adaptive inference for language agents.</li>
+    <li><strong>Post-training for agentic models</strong>: developing reinforcement learning and preference optimization methods to improve agent decision-making and interaction quality.</li>
+    <li><strong>Agent benchmarks and environments</strong>: building tasks and simulations for evaluating language agents in realistic interactive settings.</li>
+  </ul>
 
+</div>
 
-I am very willing to collaborate with researchers in the fields of LLM, LMM, and autonomous agents! 🥳  If you are interested, please contact me via [email](mailto:ykzhang22@m.fudan.edu.cn).🤩
+<h2>Experience</h2>
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-item__head">
+      <strong>Knowledge Works Lab, Fudan University</strong>
+      <span>2022 - Present</span>
+    </div>
+    <div class="experience-item__body">Ph.D. student in Computer Science, working on autonomous agents under the supervision of Prof. Yanghua Xiao.</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-item__head">
+      <strong>Institute for AI Industry Research, Tsinghua University</strong>
+      <span>Mar. 2025 - Present</span>
+    </div>
+    <div class="experience-item__body">Research intern, advised by Prof. Hao Zhou. Current work explores LLMs for scientific discovery, especially in biology.</div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-item__head">
+      <strong>ByteDance AI Lab</strong>
+      <span>Mar. 2024 - Jan. 2025</span>
+    </div>
+    <div class="experience-item__body">Research intern, advised by Rong Ye and Peng Sun. Worked on language agents for social deduction games such as Werewolf.</div>
+  </div>
+</div>
 
+<h2>Contact</h2>
+<p>I am open to research collaborations related to <strong>LLMs, agentic models, and autonomous agents</strong>. The best way to reach me is by <a href="mailto:ykzhang22@m.fudan.edu.cn">email</a>.</p>
 
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<h2>Publications</h2>
+<p><strong>Selected Publications</strong></p>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<ol class="pub-list">
+  <li class="pub-item">
+    <div class="pub-item__title">From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Sirui Xia, <strong>Yikai Zhang</strong>, Aili Chen, Siye Wu, Siyu Yuan, Yanghua Xiao.</div>
+  </li>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  <li class="pub-item">
+    <div class="pub-item__title">ARIA: Training Language Agents with Intention-driven Reward Aggregation</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--spotlight">NeurIPS 2025 Spotlight</span></div>
+    <div class="pub-item__authors">Ruihan Yang, <strong>Yikai Zhang</strong>, Aili Chen, Xintao Wang, Jiangjie Chen, Siyu Yuan, Deqing Yang, Yanghua Xiao.</div>
+  </li>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  <li class="pub-item">
+    <div class="pub-item__title">Enhancing Language Agent Strategic Reasoning through Self-Play in Adversarial Games</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors"><strong>Yikai Zhang</strong>, Rong Ye, Siyu Yuan, Jiangjie Chen, Jian Xie, Yanghua Xiao.</div>
+  </li>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  <li class="pub-item">
+    <div class="pub-item__title">Multi-agent KTO: Reinforcing Strategic Interactions of Large Language Model in Language Game</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">NeurIPS 2025</span></div>
+    <div class="pub-item__authors">Rong Ye, Yongxin Zhang, <strong>Yikai Zhang</strong>, Haoyu Kuang, Zhongyu Wei, Peng Sun.</div>
+  </li>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <li class="pub-item">
+    <div class="pub-item__title">SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">NAACL 2025</span></div>
+    <div class="pub-item__authors">Ruihan Yang, Jiangjie Chen, <strong>Yikai Zhang</strong>, Siyu Yuan, Aili Chen, Kyle Richardson, Yanghua Xiao, Deqing Yang.</div>
+  </li>
 
-**Markdown generator**
+  <li class="pub-item">
+    <div class="pub-item__title">Revealing the Barriers of Language Agents in Planning</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">NAACL 2025</span></div>
+    <div class="pub-item__authors">Jian Xie, Kexun Zhang, Jiangjie Chen, Siyu Yuan, Kai Zhang, <strong>Yikai Zhang</strong>, Lei Li, Yanghua Xiao.</div>
+  </li>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+  <li class="pub-item">
+    <div class="pub-item__title">ARM: Adaptive Reasoning Model</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--spotlight">NeurIPS 2025 Spotlight</span></div>
+    <div class="pub-item__authors">Siye Wu, Jian Xie, <strong>Yikai Zhang</strong>, Aili Chen, Kai Zhang, Yu Su, Yanghua Xiao.</div>
+  </li>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+  <li class="pub-item">
+    <div class="pub-item__title">TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">ACL 2024</span></div>
+    <div class="pub-item__authors"><strong>Yikai Zhang</strong>, Siyu Yuan, Caiyu Hu, Kyle Richardson, Yanghua Xiao, Jiangjie Chen.</div>
+  </li>
+</ol>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<p><strong>Other Publications</strong></p>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+<ol class="pub-list" start="9">
+  <li class="pub-item">
+    <div class="pub-item__title">CODA: Difficulty-Aware Compute Allocation for Adaptive Reasoning</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Siye Wu, Jian Xie, <strong>Yikai Zhang</strong>, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">The Past Is Not Past: Memory-Enhanced Dynamic Reward Shaping</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Yang Liu, Enxi Wang, Yufei Gao, Weixin Zhang, Bo Wang, Zhiyuan Zeng, <strong>Yikai Zhang</strong>, Yining Zheng, Xipeng Qiu.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">Metaphor Reasoning is Meta-reasoning</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Qianyu He, Junting Lu, <strong>Yikai Zhang</strong>, Siyu Yuan, Xiaojun Meng, Jiansheng Wei, Jiaqing Liang, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">Can LLMs Learn to Map the World from Local Descriptions?</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Sirui Xia, Aili Chen, Xintao Wang, Tinghui Zhu, <strong>Yikai Zhang</strong>, Jiangjie Chen, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+    <div class="pub-item__authors">Lida Chen, Dong Xu, Chenxin An, Xintao Wang, <strong>Yikai Zhang</strong>, Jiangjie Chen, Zujie Liang, Feng Wei, Jiaqing Liang, Yanghua Xiao, Wei Wang.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">NeurIPS 2025</span></div>
+    <div class="pub-item__authors">Ruihan Yang, Fanghua Ye, Jian Li, Siyu Yuan, <strong>Yikai Zhang</strong>, Zhaopeng Tu, Xiaolong Li, Deqing Yang.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">DEEPER Insight into Your User: Directed Persona Refinement for Dynamic Persona Modeling</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">ACL 2025</span></div>
+    <div class="pub-item__authors">Aili Chen, Chengyu Du, Jiangjie Chen, Jinghan Xu, <strong>Yikai Zhang</strong>, Siyu Yuan, Zulong Chen, Liangyue Li, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">From persona to personalization: A survey on role-playing language agents</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">TMLR 2024</span></div>
+    <div class="pub-item__authors">Jiangjie Chen, Xintao Wang, Rui Xu, Siyu Yuan, <strong>Yikai Zhang</strong>, Wei Shi, Jian Xie, Shuang Li, Ruihan Yang, Tinghui Zhu, Aili Chen, Nianqi Li, Lida Chen, Caiyu Hu, Siye Wu, Scott Ren, Ziquan Fu, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">MCITEBENCH: A Benchmark for Multimodal Citation Text Generation in MLLMs</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--spotlight">EMNLP 2025 Findings</span></div>
+    <div class="pub-item__authors">Caiyu Hu, <strong>Yikai Zhang</strong>, Tinghui Zhu, Yiwei Ye, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">Light Up the Shadows: Enhance Long-Tailed Entity Grounding with Concept-Guided Vision-Language Models</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--spotlight">ACL 2024 Findings</span></div>
+    <div class="pub-item__authors"><strong>Yikai Zhang</strong>, Qianyu He, Xintao Wang, Siyu Yuan, Jiaqing Liang, Yanghua Xiao.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--conference">ACL 2023</span></div>
+    <div class="pub-item__authors">Qianyu He, <strong>Yikai Zhang</strong>, Jiaqing Liang, Yuncheng Huang, Yanghua Xiao, Yunwen Chen.</div>
+  </li>
+
+  <li class="pub-item">
+    <div class="pub-item__title">DetectBench: Can Large Language Model Detect and Piece Together Implicit Evidence?</div>
+    <div class="pub-item__meta"><span class="pub-tag pub-tag--spotlight">EMNLP 2024 Findings</span></div>
+    <div class="pub-item__authors">Zhouhong Gu, Zihan Li, Lin Zhang, Zhuozhi Xiong, Haoning Ye, <strong>Yikai Zhang</strong>, Wenhao Huang, Xiaoxuan Zhu, Qianyu He, Rui Xu, Sihang Jiang, Shusen Wang, Zili Wang, Hongwei Feng, Zhixu Li, Yanghua Xiao.</div>
+  </li>
+</ol>
+
+</div>
